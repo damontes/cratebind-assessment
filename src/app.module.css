@@ -1,0 +1,21 @@
+.container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+
+.content {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  max-width: 650px;
+  row-gap: 64px;
+  margin: 90px 12px 32px 12px;
+  height: 100%;
+}
+
+.listContainer {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
